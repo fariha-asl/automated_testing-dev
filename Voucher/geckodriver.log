@@ -1,0 +1,33 @@
+1625390672930	geckodriver	INFO	Listening on 127.0.0.1:52593
+1625390676996	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5w/slq4lkvd053c9_332124pqsr0000gn/T/rust_mozprofileEkIUn6"
+1625390679716	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5w/slq4lkvd053c9_332124pqsr0000gn/T/rust_mozprofileEkIUn6/search.json.mozlz4", (void 0)))
+1625390683584	Marionette	INFO	Listening on port 52602
+1625390683691	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://stage.qorum.io/theme/assets/plugins/global/plugins.bundle.js?v=1614155007, line 14979: TypeError: e is null
+JavaScript error: , line 0: SecurityError: The operation is insecure.
+JavaScript error: https://stage.qorum.io/theme/assets/js/pie_chart_with_legend.js?v=1.5, line 261: ReferenceError: pieSeries1 is not defined
+JavaScript error: https://stage.qorum.io/custom/js/voucher-form.js?v=7.0.5, line 8: TypeError: $(...).sortable is not a function
+1625390725159	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: https://stage.qorum.io/theme/assets/plugins/global/plugins.bundle.js?v=1614155007, line 11816: TypeError: popper is null
+1625390744442	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1625396995376	Marionette	INFO	Stopped listening on port 52602
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
